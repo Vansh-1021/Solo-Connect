@@ -5,7 +5,7 @@ import Peer from 'simple-peer';
 const SocketContext = createContext();
 
 // const socket = io('http://localhost:1001');
-const socket = io('https://zoom-clone-app-project.herokuapp.com/');
+const socket = io('https://solo-connect.vercel.app/');
 
 const ContextProvider = ({ children }) => {
   const [callAccepted, setCallAccepted] = useState(false);
